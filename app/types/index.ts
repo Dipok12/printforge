@@ -1,5 +1,3 @@
-import type { ReactNode } from "react"
-
 // Data Types
 export type Model = {
   id: number

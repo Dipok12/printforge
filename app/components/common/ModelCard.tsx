@@ -33,7 +33,7 @@ export default function ModelCard({ model }: ModelCardProps ){
                         <div className="inline-block border border-gray-500 rounded-4xl p-2 capitalize text-[14px] leading-3.5">{model.category}</div>
                     </div>
                     <div className="flex gap-2 items-center mt-4 text-gray-600" aria-label={`${model.likes} likes`}>
-                        <img src="/heart-icon.svg" alt="" />
+                        <Image src="/heart-icon.svg" alt="" width={18} height={18} />
                         <span>{model.likes}</span>
                     </div>
                 </div>
