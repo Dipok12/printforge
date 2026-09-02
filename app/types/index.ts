@@ -1,4 +1,6 @@
 // Data Types
+import type { ReactNode } from "react"
+
 export type Model = {
   id: number
   name: string
@@ -26,6 +28,17 @@ export type CategoryPageParams = {
     }>
 }
 
+export type GetModelsParams = {
+    category?: string
+}
+
 export type ModelCardProps = {
     model: Model
+}
+
+export type NavLinkProps = {
+    href: string,
+    children: ReactNode,
+    isActive?: boolean
+
 }

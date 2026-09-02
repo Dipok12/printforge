@@ -1,12 +1,12 @@
 import ModelCard from "@/app/components/common/ModelCard";
 import type { Model } from "@/app/types"
-import { getAllModels } from "../lib/models"
+import { getModels } from "../lib/models"
 
 
 
 
 export default async function Models(){
-    const models = await getAllModels()
+    const models = await getModels()
     return(
         <section>
             <div className="container">

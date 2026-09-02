@@ -6,7 +6,7 @@ export default async function ModleSinglePage({params}: ModelDetailPageProps){
     const {id} = await params;
     const model = await getModelById(id)
     return (
-        <section className="px-5 py-14">
+        <section>
             <div className="container">
                 <div className="detailsInr grid grid-cols-2 items-center gap-10">
                     <div className="imgCol relative">
