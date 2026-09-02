@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       className={`${albertSans.variable} ${montserratAlt.variable} h-full antialiased`}
     >
-      <body className={`${albertSans.className} min-h-full flex flex-col`}
+      <body className={`${albertSans.className} bg-white min-h-full flex flex-col`}
      suppressHydrationWarning 
       >
         <div className="headerHeight pb-21.5"></div>

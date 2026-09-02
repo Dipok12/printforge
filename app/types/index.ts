@@ -20,6 +20,12 @@ export type Category = {
     slug: string
 }
 
+export type CategoryPageParams = {
+    params: Promise<{
+        categoryName: string
+    }>
+}
+
 export type ModelCardProps = {
     model: Model
 }
