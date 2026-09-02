@@ -17,9 +17,9 @@ export default async function PostSingle({
     <section className="px-5 py-14">
       <div className="container">
         <div className="max-w-200 mx-auto space-y-4">
-          <h2 className="text-3xl font-medium">{post.title}</h2>
-          <div className="tex-lg">
-            <p>{post.body}</p>
+          <h2 className="text-3xl font-medium text-[#1E1E1E]">{post.title}</h2>
+          <div className="text-lg">
+            <p className="text-[#1E1E1E]">{post.body}</p>
           </div>
         </div>
       </div>
