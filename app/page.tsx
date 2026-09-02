@@ -9,7 +9,7 @@ export default function Home() {
         <div className="container">
           <div className="w-full grid gap-10 sm:gap-16 md:gap-25 grid-cols-1 sm:grid-cols-[46%_1fr] items-center">
             <div className="content order-2 sm:order-1">
-              <div className="pb-7 sm:pb-10 md:pb-15 flex flex-col gap-2.5 sm:gap-5">
+              <div className="pb-7 sm:pb-10 md:pb-15 flex text-[#1E1E1E] flex-col gap-2.5 sm:gap-5">
                 <span>Your go-to platform for 3D printing files</span>
                 <h1 className="text-[34px] sm:text-[45px] md:text-[56px] font-bold">Discover what’s possible with 3D printing</h1>
                 <p>Join our community of creators and explore a vast library of user-submitted models.</p>

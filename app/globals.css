@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fff;
+    --foreground: #fff;
   }
 }
 @layer base {
@@ -21,7 +21,7 @@
 }
 
 body {
-  background: var(--background);
+  background: #fff;
   color: var(--foreground);
   font-family: var(--font-albert-sans);
   font-size: 16px;
