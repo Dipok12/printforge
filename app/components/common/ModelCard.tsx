@@ -8,7 +8,7 @@ export default function ModelCard({ model }: ModelCardProps ){
     href={`/3d-model/${model.id}`}
     className="block group hover:shadow-[0_5px_12px_rgba(0,0,0,0.1)] hover:-translate-y-0.75 transition-all"
     >
-        <div className="overflow-hidden group transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg" role="article">
+        <div className="overflow-hidden h-full group transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg" role="article">
                 <div className="relative aspect-square overflow-hidden">
                     <Image
                         src={model.image}

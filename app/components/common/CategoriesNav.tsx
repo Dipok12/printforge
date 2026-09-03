@@ -9,7 +9,7 @@ export default function CategoriesNav() {
     const categories: Category[] = getAllCategories()
     return(
         <div>
-            <div className="relative">
+            <div className="sticky top-[20%]">
                  <ul>
                     <NavLink
                         href="/3d-model"
